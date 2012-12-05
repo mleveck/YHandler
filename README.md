@@ -9,5 +9,7 @@ This is the Python Script I use to access the Yahoo Fantasy Sports API via OAuth
 - create a handler with: var_name = YHandler('auth.csv')
 
 The app needs the following libraries, which you can install using pip:
-Requests: http://docs.python-requests.org/en/latest/
-Requests-oauth:https://github.com/maraujop/requests-oauth
+
+**Requests:** http://docs.python-requests.org/en/latest/
+
+**Requests-oauth:** https://github.com/maraujop/requests-oauth
