@@ -24,7 +24,7 @@ class LxmlSelector(BaseSelector):
 		if not el:
 			return LxmlSelector()
 		else:
-			return LxmlSelector(el)		
+			return LxmlSelector(el[0])		
 
 	def iter_select(self, query, ns=None):
 

@@ -21,7 +21,6 @@ class YHandler:
         else:
             self.authc = CSVAuthManager(authf)
         self.authd = self.authc.get_authvals()
-        print self.authd
         self.format = format
 
     def reg_user(self):

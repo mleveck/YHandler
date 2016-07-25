@@ -44,7 +44,7 @@ class YQuery:
         if resp.status_code != requests.codes['ok']:
             return False
         self.selector.parse(resp.content)
-        for cat in self.selector.iterselect('.//yh:stats/yh:stat', self.ns):
+        for cat in self.selector.iter_select('.//yh:stats/yh:stat', self.ns):
             stat_id = cat.select_one('./yh:stat_id', self.ns).text
             self.stat_categories[stat_id] = {
                 'name': cat.select_one('./yh:display_name', self.ns).text,
@@ -68,15 +68,16 @@ class YQuery:
             return None
 
         games = []
-        for game in self.selector.iter_select('.//yh:game'):
+        for game in self.selector.iter_select('.//yh:game', self.ns):
             game_detail = {
-                'key': game.select_one('./yh:game_key').text
-                'code': game.select_one('./yh:code').text
-                'name': game.select_one('./yh:name').text
-                'season': game.select_one('./yh:season').text
-                'type': game.select_one('./yh:season').text
+                'key': game.select_one('./yh:game_key', self.ns).text,
+                'code': game.select_one('./yh:code', self.ns).text,
+                'name': game.select_one('./yh:name', self.ns).text,
+                'season': game.select_one('./yh:season', self.ns).text,
+                'type': game.select_one('./yh:season', self.ns).text
             }
-        return self.selector.parse(resp.content)
+            games.append(game_detail)
+        return games
 
     def get_user_leagues(self):
         """
@@ -177,7 +178,3 @@ class YQuery:
         if resp.status_code != requests.codes['ok']:
             return None
         return self.selector.parse(resp.content)
-
-
-
-
