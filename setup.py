@@ -17,7 +17,7 @@ setup(name='YHandler',
       license='MIT',
       packages=['YHandler'],
       install_requires=[
-            'oauth-lib',
+            'oauthlib',
             'requests',
             'lxml'
       ],
