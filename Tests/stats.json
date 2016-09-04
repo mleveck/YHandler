@@ -1,0 +1,157 @@
+{
+  "60": {
+    "name": "40 Yd Pass TD",
+    "value": "0",
+    "detail": "40+ Yard Passing Touchdowns"
+  },
+  "61": {
+    "name": "40 Yd Rush",
+    "value": "0",
+    "detail": "40+ Yard Run"
+  },
+  "62": {
+    "name": "40 Yd Rush TD",
+    "value": "0",
+    "detail": "40+ Yard Rushing Touchdowns"
+  },
+  "63": {
+    "name": "40 Yd Rec",
+    "value": "0",
+    "detail": "40+ Yard Receptions"
+  },
+  "64": {
+    "name": "40 Yd Rec TD",
+    "value": "0",
+    "detail": "40+ Yard Reception Touchdowns"
+  },
+  "59": {
+    "name": "40 Yd Comp",
+    "value": "0",
+    "detail": "40+ Yard Completions"
+  },
+  "80": {
+    "name": "Rec 1st Downs",
+    "value": "0",
+    "detail": "Receiving 1st Downs"
+  },
+  "81": {
+    "name": "Rush 1st Downs",
+    "value": "0",
+    "detail": "Rushing 1st Downs"
+  },
+  "79": {
+    "name": "Pass 1st Downs",
+    "value": "0",
+    "detail": "Passing 1st Downs"
+  },
+  "58": {
+    "name": "Pick Six",
+    "value": "0",
+    "detail": "Pick Sixes Thrown"
+  },
+  "11": {
+    "name": "Rec",
+    "value": "0",
+    "detail": "Receptions"
+  },
+  "10": {
+    "name": "Rush TD",
+    "value": "0",
+    "detail": "Rushing Touchdowns"
+  },
+  "13": {
+    "name": "Rec TD",
+    "value": "0",
+    "detail": "Reception Touchdowns"
+  },
+  "12": {
+    "name": "Rec Yds",
+    "value": "0",
+    "detail": "Reception Yards"
+  },
+  "15": {
+    "name": "Ret TD",
+    "value": "0",
+    "detail": "Return Touchdowns"
+  },
+  "14": {
+    "name": "Ret Yds",
+    "value": "0",
+    "detail": "Return Yards"
+  },
+  "17": {
+    "name": "Fum",
+    "value": "0",
+    "detail": "Fumbles"
+  },
+  "16": {
+    "name": "2-PT",
+    "value": "0",
+    "detail": "2-Point Conversions"
+  },
+  "18": {
+    "name": "Fum Lost",
+    "value": "0",
+    "detail": "Fumbles Lost"
+  },
+  "57": {
+    "name": "Fum Ret TD",
+    "value": "0",
+    "detail": "Offensive Fumble Return TD"
+  },
+  "1": {
+    "name": "Pass Att",
+    "value": "0",
+    "detail": "Passing Attempts"
+  },
+  "0": {
+    "name": "GP",
+    "value": "0",
+    "detail": "Games Played"
+  },
+  "3": {
+    "name": "Inc",
+    "value": "0",
+    "detail": "Incomplete Passes"
+  },
+  "2": {
+    "name": "Comp",
+    "value": "0",
+    "detail": "Completions"
+  },
+  "5": {
+    "name": "Pass TD",
+    "value": "0",
+    "detail": "Passing Touchdowns"
+  },
+  "4": {
+    "name": "Pass Yds",
+    "value": "0",
+    "detail": "Passing Yards"
+  },
+  "7": {
+    "name": "Sack",
+    "value": "0",
+    "detail": "Sacks"
+  },
+  "6": {
+    "name": "Int",
+    "value": "0",
+    "detail": "Interceptions"
+  },
+  "9": {
+    "name": "Rush Yds",
+    "value": "0",
+    "detail": "Rushing Yards"
+  },
+  "8": {
+    "name": "Rush Att",
+    "value": "0",
+    "detail": "Rushing Attempts"
+  },
+  "78": {
+    "name": "Targets",
+    "value": "0",
+    "detail": "Targets"
+  }
+}
